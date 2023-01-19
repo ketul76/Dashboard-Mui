@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.budget-img img,.progress-img img{
+  width: 75px;
+}
+.asideMenu{
+  width: 240px; 
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+}
+.headerMenu{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+  .mainasideMenu{
+    display: none;
+  }
+  .box{
+    margin-left: 10px
+    !important;
+  }
+  .progress{
+    width: 100% !important;
+  }
+  .headerMenu{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .paper{
+    width: 100% !important;
+  }
+
+}
